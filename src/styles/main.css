@@ -29,13 +29,13 @@ main.main .ofert {
 }
 
 main.main .informations h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin-bottom: 20px;
     color: #fff;
 }
 
 main.main .informations p {
-    font-size: 1rem;
+    font-size: 20px;
     line-height: 1.5;
     color: #fff;
 }
