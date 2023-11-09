@@ -1,0 +1,53 @@
+main.main {
+    width: 100%;
+    padding: 15px 2%;
+    min-height: calc(100vh - 95px);
+    background: linear-gradient(to right, #ff69b4, #800080); /* gradiente de rosa para roxo */
+}
+
+main.main .container {
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main.main .informations {
+    width: 100%;
+    max-width: 600px;
+    order: 2;
+}
+
+main.main .ofert {
+    width: 100%;
+    max-width: 400px;
+    order: 1;
+}
+
+main.main .informations h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+main.main .informations p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+main.main .ofert img {
+    width: 100%;
+    height: auto;
+    transition: .4s;
+    border-radius: 6px;
+}
+main.main .ofert img:hover{
+    transform: scale(1.05);
+    border-radius: 12px;
+}
+
